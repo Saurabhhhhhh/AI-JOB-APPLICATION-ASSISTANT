@@ -1,3 +1,19 @@
 {
-
+  "job_preferences": {
+    "job_roles": ["python_developer", "web_developer", "software_developer"],
+    "locations": ["India", "Germany", "Japan"],
+    "skills": ["python", "c", "c++", "machine_learning", "javascript", "react", "php", "mysql", "mongodb", "git"],
+    "max_experience_required": 0,
+    "experience_level": ["fresher"],
+    "job_type": ["full-time", "remote"],
+    "max_applications_per_run": 2
+  },
+  "platforms": {
+    "enabled": ["indeed"]
+  },
+  "resumes": {
+    "python_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/base_resume_DRAFT.pdf",
+    "web_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/base_resume_DRAFT.pdf",
+    "software_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/base_resume_DRAFT.pdf"
+  }
 }

@@ -1,0 +1,30 @@
+# created by virtualenv automatically
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+Lib/
+Scripts/
+pyvenv.cfg
+CACHEDIR.TAG
+
+# Environment / secrets
+*.env
+config/secrets.env
+
+# Logs
+logs/
+*.log
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Databases (future)
+*.db
+*.sqlite3
+

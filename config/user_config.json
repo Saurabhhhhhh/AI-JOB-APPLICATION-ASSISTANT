@@ -3,10 +3,9 @@
     "job_roles": ["python_developer", "web_developer", "software_developer"],
     "locations": ["India", "Germany", "Japan"],
     "skills": ["python", "c", "c++", "machine_learning", "javascript", "react", "php", "mysql", "mongodb", "git"],
-    "max_experience_required": 0,
     "experience_level": ["fresher"],
     "job_type": ["full-time", "remote"],
-    "max_applications_per_run": 2
+    "max_applications": 2
   },
   "platforms": {
     "enabled": ["indeed"]

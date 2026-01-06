@@ -29,6 +29,11 @@ class ConfigLoader():
         job_prefs = self.config_data["job_preferences"]
         if not isinstance(job_prefs, dict):
             raise TypeError("job_preferences must be a dictionary")
+        
+        resumes = self.config_data["resumes"]
+        if not isinstance(resumes, dict) or not resumes:
+            raise TypeError("resumes must be a non-empty dictionary")
+        
 
         required_job_prefs_keys = [
             "job_roles",
@@ -60,8 +65,5 @@ abs_path = os.path.abspath(current_dir)
 path = os.path.join(abs_path, 'user_config.json')
 
 
-loader = ConfigLoader(path)
-loader.load()
-loader.validate()
-print("Config loaded and validated")
+
 

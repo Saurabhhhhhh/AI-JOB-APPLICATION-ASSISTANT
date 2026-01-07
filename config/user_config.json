@@ -5,7 +5,7 @@
     "skills": ["python", "c", "c++", "machine_learning", "javascript", "react", "php", "mysql", "mongodb", "git"],
     "experience_level": ["fresher"],
     "job_type": ["full-time", "remote"],
-    "max_applications": 2
+    "max_applications": 10
   },
   "platforms": ["indeed", "linkedin"]
   ,

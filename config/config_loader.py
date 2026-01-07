@@ -14,6 +14,7 @@ class ConfigLoader():
             raise ValueError("Invalid JSON in config file")
 
 
+
     def validate(self):
         if not hasattr(self, 'config_data'):
             raise RuntimeError("Config not loaded. Call load() first.")
@@ -58,7 +59,13 @@ class ConfigLoader():
 
         if job_prefs["max_applications"] <= 0:
             raise ValueError("max_applications must be greater than 0")
+        
 
+
+    def load_and_validate(self):
+        self.load()
+        self.validate()
+        return self.config_data
 
 current_dir = os.path.dirname(__file__)
 abs_path = os.path.abspath(current_dir)

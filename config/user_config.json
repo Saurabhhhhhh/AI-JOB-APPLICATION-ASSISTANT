@@ -10,8 +10,8 @@
   "platforms": ["indeed", "linkedin"]
   ,
   "resumes": {
-    "python_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/base_resume_DRAFT.pdf",
-    "web_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/base_resume_DRAFT.pdf",
-    "software_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/base_resume_DRAFT.pdf"
+    "python_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/python_developer_resume.pdf",
+    "web_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/web_developer_resume.pdf",
+    "software_developer": "E:/Python/Projects/AI_JOB_APPLICATION_ASSISTANT/resumes/software_developer_resume.pdf"
   }
 }
